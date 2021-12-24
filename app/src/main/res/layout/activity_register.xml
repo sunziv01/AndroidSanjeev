@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context=".RegisterActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="New Registration"
+            android:layout_column="1"
+            android:textSize="25dip"
+            android:textAlignment="center"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="First Name"
+            android:textAlignment="textEnd"
+            />
+        <EditText
+            android:id="@+id/edFirstName"
+            android:inputType="text"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Last Name"
+            android:textAlignment="textEnd"
+            />
+        <EditText
+            android:id="@+id/edLastName"
+            android:inputType="text"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="E-mail"
+            android:textAlignment="textEnd"
+            />
+        <EditText
+            android:id="@+id/edEmail"
+            android:inputType="textEmailAddress"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Password"
+            android:textAlignment="textEnd"
+            />
+        <EditText
+            android:id="@+id/edPassword"
+            android:inputType="textPassword"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Confirm Password"
+            android:textAlignment="textEnd"
+            />
+        <EditText
+            android:id="@+id/edConfirmPassword"
+            android:inputType="textPassword"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="Sign Up"
+            android:id="@+id/SignUp"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Already have an account."
+            android:layout_column="1"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/bSignIn"
+            android:text="Sign In"
+            android:layout_column="1"
+            />
+    </TableRow>
+
+</TableLayout>
